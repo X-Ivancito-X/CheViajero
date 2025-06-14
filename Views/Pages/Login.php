@@ -8,14 +8,13 @@
     <!-- Bootstrap CSS v5.2.1 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"/>
     <!-- CSS -->
-    <link rel="stylesheet" href="../Css/Global.css">
+    <!-- <link rel="stylesheet" href="../Css/Global.css"> -->
     <link rel="stylesheet" href="../Css/Style.css">
 
 </head>
 
 <body>
     <header class="Encabezado">
-        
 
     </header>
 
@@ -37,7 +36,7 @@
 
                 <?php 
                     include("../../Controller/ConBD.php");
-                    include("../../Model/Login/Login.php");
+                    include("../../Model/SELECT/Login.php");
 
                 ?>
 
@@ -51,7 +50,7 @@
     
 
     </footer>
-    <!-- sweetalert -->
+
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <!-- Bootstrap JavaScript Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
