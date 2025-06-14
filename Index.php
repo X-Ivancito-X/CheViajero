@@ -11,12 +11,13 @@
     <!-- Bootstrap CSS v5.2.1 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"/>
     <link rel="stylesheet" href="Views/Css/Global.css">
+    <link rel="stylesheet" href="Views/Css/Style.css">
 
 </head>
 
 <body>
     <header class="Encabezado">
-        <div class="menu container">
+        <div class="Menu container">
             <a href="Views/Pages/Login.php" class="logo">Che Viajero</a>
             <input type="checkbox" id="menu">
             <label for="menu">
@@ -47,6 +48,9 @@
 
         </div>
 
+    </header>
+
+    <main class="Cuerpo">
         <div class="header-content container">
             <div class="header-txt">
                 <h1>Elige tu lugar favorito</h1>
@@ -96,11 +100,6 @@
             <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div>
        </div>
-
-
-    </header>
-
-    <main class="Cuerpo">
 
 
     </main>
