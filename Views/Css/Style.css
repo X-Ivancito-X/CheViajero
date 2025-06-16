@@ -4,5 +4,110 @@
     box-sizing: border-box;
 
 }
+/* -----> Login */
+.Glass{ 
+    background: #fafafa70;
+    backdrop-filter: blur(.5rem);
+    -webkit-backdrop-filter: blur(.1rem);
+    border-radius: 20px;
+}
+
+.Cuerpo{
+    border-radius: 20px;
+    margin: 0 auto 0 auto;
+    margin-top: 100px;
+    width: 500px;
+    height: 400px;
+    color: black;
+    margin-bottom: 90px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.ContenedorLogin{
+    padding: 20px;
+}
+
+.FormularioLogin h1{
+    text-align: center;
+    font-weight: 750;
+}
+
+.FormularioLogin label{
+    margin-left: 60px;
+    padding: 10px;
+}
+
+.FormularioLogin .form-control{
+    margin: auto;
+    width: 350px;
+    text-align: center;
+}
+
+.FormularioLogin .ingresar{
+    margin-left: 150px;
+    width: 175px;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 10px;
+    border-color: red;
+    color: black;
+}
+
+.FormularioLogin a{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* ---> CrearCuenta  */
+
+.Cuerpo2{
+    border-radius: 20px;
+    margin: 0 auto 0 auto;
+    margin-top: 100px;
+    width: 500px;
+    height: 1100px;
+    color: black;
+    margin-bottom: 200px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.FormularioCrearCuenta h1{
+    
+    text-align: center;
+    font-weight: 750;
+}
+
+.FormularioCrearCuenta label{
+    margin-left: 60px;
+    padding: 10px;
+}
+
+.FormularioCrearCuenta .form-control{
+    margin: auto;
+    width: 300px;
+    text-align: center;
+}
+
+.FormularioCrearCuenta .crearcuenta{
+    margin-left: 150px;
+    width: 175px;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 10px;
+    border-color: red;
+    color: black;
+}
+
+.FormularioCrearCuenta a{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 10px;
+}
 
 

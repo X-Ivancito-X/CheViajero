@@ -8,20 +8,47 @@
     <!-- Bootstrap CSS v5.2.1 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"/>
     <!-- CSS -->
-    <!-- <link rel="stylesheet" href="../Css/Global.css">
-    <link rel="stylesheet" href="../Css/Style.css"> -->
+    <link rel="stylesheet" href="../Css/Global.css"> 
+    <link rel="stylesheet" href="../Css/Style.css">
 
 </head>
 
 <body>
     <header class="Encabezado">
-        
+        <div class="Menu container">
+            <a href="Views/Pages/Login.php" class="logo">Che Viajero</a>
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <!-- colocar icono  -->
+                <img src="" class="menu-icono" alt="">
+            </label>
 
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Alojamientos</a></li>
+                    <li><a href="#">Vuelos</a></li>
+                    <li><a href="#">Paquetes</a></li>
+                    <li><a href="#">Ofertas</a></li>
+                    <li><a href="#">Alquileres</a></li>
+                    <li><a href="#">Autos</a></li>
+                    <li><a href="#">Disney</a></li>
+
+                </ul>
+
+            </nav>
+
+            <div class="icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twiter"></i>
+
+            </div>
     </header>
 
-    <main class="Cuerpo">
+    <main class="Cuerpo2">
         <section class="ContenedorCrearCuenta">
-            <form action="" method="post" class="FormularioCrearCuenta was-validated">
+            <form action="" method="post" class="FormularioCrearCuenta was-validated Glass">
+
                 <h1>Registre su cuenta</h1>
                 <label for="">Nombre:</label>
                 <input type="text" class="form-control" name="Nombre" id="" aria-describedby="helpId" placeholder="Ingrese su nombre" required/>
@@ -44,6 +71,7 @@
                 <label for="">Calle:</label>
                 <input type="text" class="form-control" name="Calle" id="" aria-describedby="helpId" placeholder="Ingrese su calle" required/>
 
+                
                 <label for="">Altura:</label>
                 <input type="text" class="form-control" name="Altura" id="" aria-describedby="helpId" placeholder="Ingrese su altura" required/>
 
@@ -62,15 +90,12 @@
                 <label for="">Codigo postal:</label>
                 <input type="text" class="form-control" name="CodigoPostal" id="" aria-describedby="helpId" placeholder="Ingrese su codigo postal" required/>
 
-                <input type="submit" value="Crear cuenta" id="" name="CrearCuenta">
+                <input type="submit" class="crearcuenta" value="Crear cuenta" id="" name="CrearCuenta">
 
                 <a href="../Pages/Login.php">¿Ya esta registrado? Iniciar sesion</a>
+                
 
-                <?php 
-                    include("../../Controller/ConBD.php");
-                    include("../../Model/INSERT/CrearCuenta.php");
-
-                ?>
+                
 
             </form>
 
